@@ -51,7 +51,8 @@ This project has following pages-
 1.7.1	Add new Patient	 
 1.8	Create prescription	 
 
+## Developer
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Talemul Islam<br>
+talemulwi@gmail.com <br>
+ 
