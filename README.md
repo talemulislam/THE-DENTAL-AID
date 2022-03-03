@@ -1,32 +1,55 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# URL Shortener
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+A simple THE DENTAL AID application with Laravel.
 
-## About Laravel
+## Installation
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+It's a Laravel `7.0` application with a very little functionality. You can install it as any other laravel 8 application. Here are the commands you need to run one by one-
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+```
+git clone https://github.com/talemulislam/THE-DENTAL-AID.git
+cd url
+composer install
+npm install
+npm run dev
+cp .env.example .env
+php artisan key:generate
+```
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Then you need to put your database credentials in the .env file. I used MySQL in this project, but any [Eloquent](https://laravel.com/docs/7.x/eloquent) supported relational database can be used. After that run these-
 
-## Learning Laravel
+```
+php artisan migrate
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Then to run the development server, run this-
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+```
+php artisan serve
+```
+
+Then you can visit the THE DENTAL AID in this url- `http://127.0.0.1:8000`. Yon can also visit : [http://dc.talemul.com/](http://dc.talemul.com/) to view.
+
+**You should also give write permission to the `storage` folder**
+
+This project has following pages-
  
+1.2	LOGIN PAGE:	 
+1.3	ADMIN PANEL:	 
+1.3.1	User management	 
+1.3.2	ADDING NEW USER DETAILS:	 
+1.3.3	User role:	 
+1.3.4	New Role	 
+1.3.5	Permissions	 
+1.3.6	New Permissions	 
+1.3.7	Menu	 
+1.4	Doctor module:	 
+1.4.1	Adding doctor	 
+1.5	Department details	 
+1.6	Adding Appointment	 
+1.7	Patient details	 
+1.7.1	Add new Patient	 
+1.8	Create prescription	 
 
 
 ## License
