@@ -8,7 +8,7 @@ It's a Laravel `7.0` application with a very little functionality. You can insta
 
 ```
 git clone https://github.com/talemulislam/THE-DENTAL-AID.git
-cd url
+cd THE-DENTAL-AID
 composer install
 npm install
 npm run dev
